@@ -1,0 +1,113 @@
+/* =========================================
+   GLOBAL
+========================================= */
+.stApp {
+    background-color: #0d0d0d;
+    color: white;
+}
+
+/* Remove Streamlit top padding */
+.block-container {
+    padding-top: 0rem !important;
+}
+
+/* Remove header space */
+header[data-testid="stHeader"] {
+    height: 0px;
+}
+
+/* =========================================
+   NAVBAR
+========================================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* =========================================
+   HERO SECTION (Landing Page Only)
+========================================= */
+.hero {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.hero-title {
+    font-size: 48px;
+    
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.highlight {
+    color: #4da3ff;
+}
+
+.hero-subtitle {
+    color: #aaaaaa;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* =========================================
+   INPUT
+========================================= */
+.stTextInput input {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 14px;
+    text-align: center;
+}
+
+/* =========================================
+   GREEN GRADIENT BUTTON
+========================================= */
+.stButton button,
+.stDownloadButton button,
+.st.download_button 
+ {
+    background: linear-gradient(90deg, #00c853, #00e676);
+    color: black;
+    border-radius: 12px;
+    padding: 10px 28px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.stButton button:hover,
+.stDownloadButton button:hover,
+.st.download_button  {
+    background: linear-gradient(90deg, #00e676, #00c853);
+}
+
+/* =========================================
+   SECTION CARD (Results / About)
+========================================= */
+.section-card {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 13px;
+    color: #777;
+}
